@@ -3,18 +3,20 @@
   flex-grow: 5;
   width: 40%;
   margin: 10px;
+  max-width: 40%;
   display: none;
   flex-direction: column;
   border-radius: 12px;
   margin-bottom: 10px;
-  background-color: var(--forgeground-color);
+  background: linear-gradient(var(--background-color));
   transition: background 300ms ease 0s, border 300ms ease 0s;
 }
 .featureBox__top {
   display: flex;
-  color: var(--content-color);
+  color: var(--b1-color);
   font-family: "Varela Round", sans-serif;
   font-size: 20px;
+
   align-items: center;
 }
 .featureBox__top img {
@@ -28,7 +30,7 @@
   font-size: 18px;
   font-weight: 500;
   line-height: 130%;
-  color: var(--content-color);
+  color: var(--b2-color);
 }
 .featureBox__content .featureBox__contentProp {
   display: flex;
@@ -47,4 +49,9 @@
   font-size: 10px;
   margin-right: 5px;
   color: var(--content-color);
+}
+@media screen and (max-width: 1080px) {
+  .featureBox {
+    max-width: unset;
+  }
 }

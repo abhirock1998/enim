@@ -1,32 +1,39 @@
 export const EssentialsBoxes = [
   {
     id: 1,
-    src:
-      "https://cdn4.iconfinder.com/data/icons/digital-marketing-5-2/35/237-512.png",
-    title: "Support",
+    src:"https://www.clipartmax.com/png/middle/202-2022286_web-development-svg-png-icon-free-download-web-development-icon-svg.png",
+    title: "Web Development",
     description:
-      "When buying our bot , you will get 24/7 support . Our dedicated staff team will make sure that you understand everything and can use the bot and will never leave you hanging",
+      "Technical solutions of different complexity are applied in all stages of the web development process .As a result, you get highly competent digital product ready to use. ",
   },
   {
     id: 2,
-    title: "Update",
-    src:"https://www.jing.fm/clipimg/full/279-2799237_update-icon-png.png",
+    title: "Mobile Development",
+    src:"https://cdn.iconscout.com/icon/premium/png-256-thumb/mobile-app-development-23-908128.png",
     description:
-      "Our Development team , isn't happy with just 'Ok' . We will work day and night to make sure our bot is the best it can be so you can cook ",
+      "A whole world can be found on your mobile devices nowdays . That's why we deal with best native and cross-platform application broadening the horizons of accessibilty by each smartphone click. ",
   },
   {
     id: 3,
-    title: "Innovative features",
+    title: "UI/UX Design",
     src:
       "https://cdn.iconscout.com/icon/premium/png-512-thumb/innovative-technology-738852.png",
     description:
-      "We incorporate innovative feature to all our products ,to ensure that drops are easy to set up for and you don't need to spend hours just to prepare",
+      "Creativity uniquesness ,Friendless .That's what we always keep in mind while building interfaces and drawing mock-ups.We want you to stand out from the crowd.",
   },
   {
     id: 4,
-    title: "User Experience",
+    title: " Custom Software Development",
     src: "https://library.kissclipart.com/20180929/wre/kissclipart-user-experience-icon-clipart-user-experience-user-d4fa67aa0518e8c5.png",
     description:
-      "Our developers and special user experience staff work together to ensure that everything is easy to use , initative and you will never get stuck dyring a drop",
+  "Anxious about your text steps in enhancing the digital presence? We analyse the current state of things ,your goals and needs and suggest the solution that suits you best.",
   },
+  {
+    id:5,
+    src:
+    "https://cdn4.iconfinder.com/data/icons/digital-marketing-5-2/35/237-512.png",
+    title:" Deployment and Maintenance",
+  
+    description:"This should be the last part of this series and we will touch on something that takes place after the project is done, deployed and serving your clientele – web application maintenance."
+  }
 ];

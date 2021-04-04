@@ -2,6 +2,6 @@
   font-size: 46px;
   font-weight: 600;
   padding-left: 10px;
+  color: var(--b1-color);
   font-family: "Varela Round", sans-serif;
-  color: var(--content-color);
 }

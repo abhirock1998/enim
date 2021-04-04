@@ -5,10 +5,11 @@ function Dashboard() {
   return (
     <div   className="dashBoard">
       <div className="dashBoard__content">
-        <h1>Welcome To  Crytyl Mini</h1>
-        <p>The one source for all your botting needs</p>
+        <h5>The best web & mobile solutions</h5>
+        <h1>Digital Product Design Company</h1>
+        <p>The clients business challenges are our best incentives</p>
         <div className="dashBoard__contentBtn">
-          <Button variant="outlined">OOS: $ 40/month</Button>
+          <Button variant="outlined">LET'S GET STARTED</Button>
         </div>
       </div>
     </div>

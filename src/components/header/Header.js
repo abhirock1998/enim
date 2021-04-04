@@ -7,15 +7,15 @@ function Header() {
     <div id="top" className="header">
       <div className="hedaer__logo">
         <img
-          src="https://cdn.discordapp.com/attachments/750576650013638666/816199165142630410/Frame_3_1.png"
+          src="https://www.pikpng.com/pngl/m/546-5467841_website-development-port-blair-web-design-logo-png.png"
           alt="bot-logo"
         />
-        <span>Crytyl Mini</span>
+        <span>DPDC</span>
       </div>
       <div className="header__options">
         <GoToBtn title="Home" />
-        <GoToBtn Go="#feature" title="Feature" />
-        <GoToBtn Go="#faqSection" title="FAQ" />
+        <GoToBtn Go="#services" title="Services" />
+        <GoToBtn Go="#contact-us" title="Contact Us" />
       </div>
     </div>
   );

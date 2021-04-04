@@ -3,7 +3,10 @@ import "./wheel-slider.css";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
-import { WheelSldierImage } from "../../fixtures/wheel-slider-image";
+import one from "../../assests/1.jpeg";
+import two from "../../assests/2.jpeg";
+import three from "../../assests/3.jpeg";
+import four from "../../assests/4.jpeg";
 function WheelSlider() {
   var settings = {
     infinite: true,
@@ -32,12 +35,22 @@ function WheelSlider() {
   return (
     <div className="wheelSlider">
       <Slider {...settings}>
-        {WheelSldierImage?.slice(0, 5).map(({ src, title, id }) => (
-          <div key={id} className="wheelSlider__box">
-            <img src={src} alt={title} />
-            <div className="wheelSlider__boxTitle">{title}</div>
-          </div>
-        ))}
+        <div className="wheelSlider__box">
+          <img src={one} alt="Biopharm Solution" />
+          <div className="wheelSlider__boxTitle">Biopharm Solution</div>
+        </div>
+        <div className="wheelSlider__box">
+          <img src={two} alt="Biopharm Solution" />
+          <div className="wheelSlider__boxTitle">Kredence PV</div>
+        </div>
+        <div className="wheelSlider__box">
+          <img src={three} alt="Biopharm Solution" />
+          <div className="wheelSlider__boxTitle">Ghanshyaam Trading CO.</div>
+        </div>
+        <div className="wheelSlider__box">
+          <img src={four} alt="Biopharm Solution" />
+          <div className="wheelSlider__boxTitle">DFY</div>
+        </div>
       </Slider>
     </div>
   );

@@ -1,0 +1,26 @@
+.contact__input {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+.contact__input input {
+  padding: 8px 16px;
+  background-color: transparent;
+  outline: none;
+  font-family: "Varela Round", sans-serif;
+  border: none;
+  border-bottom: 1px solid #fff;
+}
+.contact__input span {
+  color: var(--b2-color);
+  font-size: 12px;
+}
+.contact__input textarea {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  padding: 8px 16px;
+  resize: vertical;
+  height: 80px;
+  border-bottom: 1px solid #fff;
+}

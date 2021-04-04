@@ -17,8 +17,8 @@ function JumboSection() {
   }, []);
 
   return (
-    <div className="jumboSection">
-      <Heading heading="Essential Tools" />
+    <div id="services" className="jumboSection">
+      <Heading heading="Services" />
       <div className="jumboSection__wrapper">
         {EssentialsBoxes.map(({ id, src, title, description }) => (
           <FeatureBox

@@ -1,0 +1,67 @@
+.contact {
+  background: linear-gradient(
+    180deg,
+    var(--background-color),
+    var(--forgeground-color)
+  );
+  /* background-color: #040b20;
+  background-color: #11172b; */
+  display: flex;
+  flex-wrap: wrap;
+  font-family: "Varela Round", sans-serif;
+  padding: 40px 100px;
+}
+.contact__left {
+  flex: 50%;
+}
+.contact__left h1 {
+  margin: 25px 0px;
+  line-height: 150%;
+  color: var(--b1-color);
+}
+p#contact {
+  font-weight: bold;
+  color: var(--content-light);
+}
+p#des {
+  color: var(--content-light);
+  margin-top: -10px;
+}
+.contact__right {
+  width: 40%;
+}
+.contact__left h5 {
+  margin: 20px 0px;
+}
+.contact__left a {
+  text-decoration: none;
+  text-decoration: underline;
+
+  color: var(--b2-color);
+}
+.contact__right button {
+  width: 150px;
+  font-family: "Varela Round", sans-serif;
+  font-weight: 600;
+  text-transform: inherit;
+  background-color: var(--b2-color);
+  padding: 10px;
+  color: #fff;
+}
+.contact__left .heading {
+  padding-left: 0px;
+}
+
+@media screen and (max-width: 768px) {
+  .contact {
+    flex-direction: column;
+    padding: 40px 20px;
+  }
+  .contact__left,
+  .contact__right {
+    width: 100%;
+  }
+  .contact__right {
+    margin-top: 30px;
+  }
+}

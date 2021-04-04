@@ -4,21 +4,19 @@ import {
   Header,
   DashBoard,
   WheelCarousel,
-  Feature,
+  Contact,
   JumboSection,
-  Faq,
   Footer,
 } from "./components/components";
 function App() {
-  
   return (
     <div className="app">
       <Header />
       <DashBoard />
       <WheelCarousel />
-      <Feature />
+      {/* <Feature /> */}
       <JumboSection />
-      <Faq />
+      <Contact />
       <Footer />
     </div>
   );
