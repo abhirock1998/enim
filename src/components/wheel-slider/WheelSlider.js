@@ -37,19 +37,19 @@ function WheelSlider() {
       <Slider {...settings}>
         <div className="wheelSlider__box">
           <img src={one} alt="Biopharm Solution" />
-          <div className="wheelSlider__boxTitle">Biopharm Solution</div>
-        </div>
-        <div className="wheelSlider__box">
-          <img src={two} alt="Biopharm Solution" />
           <div className="wheelSlider__boxTitle">Kredence PV</div>
         </div>
         <div className="wheelSlider__box">
+          <img src={two} alt="Biopharm Solution" />
+          <div className="wheelSlider__boxTitle"> Ghanshyaam Trading CO.</div>
+        </div>
+        <div className="wheelSlider__box">
           <img src={three} alt="Biopharm Solution" />
-          <div className="wheelSlider__boxTitle">Ghanshyaam Trading CO.</div>
+          <div className="wheelSlider__boxTitle">DFY</div>
         </div>
         <div className="wheelSlider__box">
           <img src={four} alt="Biopharm Solution" />
-          <div className="wheelSlider__boxTitle">DFY</div>
+          <div className="wheelSlider__boxTitle">Biopharm Solution</div>
         </div>
       </Slider>
     </div>
