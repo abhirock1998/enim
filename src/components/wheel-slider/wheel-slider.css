@@ -43,7 +43,7 @@
 
 @media screen and (max-width: 400px) {
   .wheelSlider .wheelSlider__box {
-    width: 200px !important;
+    max-width: 250px !important ;
   }
 }
 @media screen and (max-width: 768px) {
