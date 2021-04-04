@@ -1,0 +1,50 @@
+.featureBox {
+  padding: 30px;
+  flex-grow: 5;
+  width: 40%;
+  margin: 10px;
+  display: none;
+  flex-direction: column;
+  border-radius: 12px;
+  margin-bottom: 10px;
+  background-color: var(--forgeground-color);
+  transition: background 300ms ease 0s, border 300ms ease 0s;
+}
+.featureBox__top {
+  display: flex;
+  color: var(--content-color);
+  font-family: "Varela Round", sans-serif;
+  font-size: 20px;
+  align-items: center;
+}
+.featureBox__top img {
+  margin-right: 30px;
+  height: 50px;
+}
+.featureBox__content {
+  margin: 10px 0px;
+}
+.featureBox__content p {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 130%;
+  color: var(--content-color);
+}
+.featureBox__content .featureBox__contentProp {
+  display: flex;
+  align-items: center;
+  font-size: 13px;
+  margin-right: 20px;
+  color: var(--content-color);
+}
+.featureBox__content .featureBox__contentPropHolder {
+  display: flex;
+  flex-wrap: wrap;
+  font-family: "Varela Round", sans-serif;
+  margin-top: 10px;
+}
+.featureBox__content .featureBox__contentProp .MuiSvgIcon-root {
+  font-size: 10px;
+  margin-right: 5px;
+  color: var(--content-color);
+}

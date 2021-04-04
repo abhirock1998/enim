@@ -1,0 +1,49 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 40px;
+  align-items: center;
+  height: 60px;
+  color: var(--content-color);
+}
+.hedaer__logo {
+  display: flex;
+  align-items: center;
+  color: var(--content-color);
+  font-size: 18px;
+  font-family: "Varela Round", sans-serif;
+  font-weight: 500;
+}
+.hedaer__logo img {
+  height: 50px;
+  object-fit: contain;
+  border-radius: 100%;
+  margin-right: 20px;
+}
+.header__options {
+  display: flex;
+  flex: 0.3;
+  align-items: center;
+  justify-content: space-evenly;
+}
+@media screen and (max-width: 968px) {
+  .header__options {
+    flex: 0.4;
+  }
+}
+@media screen and (max-width: 768px) {
+  .hedaer__logo span {
+    display: none;
+  }
+  .header {
+    padding: 10px 20px;
+  }
+  .header__options {
+    flex: 0.5;
+  }
+}
+@media screen and (max-width: 468px) {
+  .header__options {
+    flex: 1;
+  }
+}

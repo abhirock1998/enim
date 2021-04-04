@@ -1,0 +1,62 @@
+.dashBoard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 94vh;
+  padding: 0px 100px;
+  transition: background 0.5s all ease-in-out;
+  background: url("https://cdn.discordapp.com/attachments/809648576459571270/816200124257796117/unknown.png");
+  background-position: right center;
+  background-repeat: no-repeat;
+  background-size: 50%;
+}
+.dashBoard__content {
+  max-width: 450px;
+}
+.dashBoard__content h1 {
+  margin-bottom: 10px;
+  color: var(--content-color);
+  font-size: 44px;
+  font-family: "Varela Round", sans-serif;
+}
+.dashBoard__content p {
+  line-height: 180%;
+  font-size: 19px;
+  color: var(--content-color);
+  font-family: "Varela Round", sans-serif;
+}
+.dashBoard__content button {
+  margin-top: 30px;
+  border-radius: 20px;
+  color: var(--content-color);
+  height: 50px;
+  font-weight: 500;
+  width: 180px;
+  padding: 10px 15px;
+  font-family: "Varela Round", sans-serif;
+  text-transform: inherit;
+  border-color: var(--forgeground-color);
+  background: linear-gradient(
+    var(--background-color),
+    var(--forgeground-color)
+  );
+  /* background: linear-gradient(270deg, rgb(156, 119, 255), rgb(130, 80, 255)); */
+  box-shadow: rgb(14 10 31 / 25%) 0px 16px 49px;
+  border-radius: 25px;
+  transition: transform 200ms ease 0s;
+  cursor: pointer;
+}
+.dashBoard__contentBtn {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 768px) {
+  .dashBoard {
+    padding: 0px 20px;
+    background-position: center bottom;
+    background-size: contain;
+  }
+}
+
+/* https://png.pngtree.com/thumb_back/fh260/back_our/20190620/ourmid/pngtree-flat-purple-fresh-banner-image_167379.jpg */

@@ -1,0 +1,22 @@
+.jumboSection {
+  padding: 0px 150px;
+  margin: 100px 0px;
+  scroll-snap-align: start;
+}
+.jumboSection__wrapper {
+  display: flex;
+  margin-top: 20px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 768px) {
+  .jumboSection {
+    padding: 0px 20px;
+  }
+}
+@media screen and (max-width: 468px) {
+  .jumboSection {
+    padding: 0px 10px;
+  }
+}

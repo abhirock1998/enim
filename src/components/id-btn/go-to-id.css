@@ -1,0 +1,7 @@
+.go-to-id a {
+  text-decoration: none;
+  color: var(--content-color);
+  font-size: 18px;
+  font-family: "Varela Round", sans-serif;
+  font-weight: 500;
+}
